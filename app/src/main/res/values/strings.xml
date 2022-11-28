@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">OpenFoodFacts</string>
+    <string name="barcode_label">Bar code: </string>
+    <string name="quantity_label">Quantity: </string>
+    <string name="selled_in_label">Selled in : </string>
+    <string name="ingredient_label">Ingredient : </string>
+    <string name="allergenic_substance_label">Allergenic substance : </string>
+    <string name="additives_label">Additives : </string>
 </resources>

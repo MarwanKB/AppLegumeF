@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Mon comparateur</string>
+    <string name="barcode_label">Code barre : </string>
+    <string name="quantity_label">Quantité : </string>
+    <string name="selled_in_label">Vendu en : </string>
+    <string name="ingredient_label">Ingrédients : </string>
+    <string name="allergenic_substance_label">Substances allergènes : </string>
+    <string name="additives_label">Additifs : </string>
 </resources>
