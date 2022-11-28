@@ -1,9 +1,22 @@
 <resources>
     <string name="app_name">Mon comparateur</string>
+
+    <!-- Detail Activity -->
     <string name="barcode_label">Code barre :&#160;</string>
     <string name="quantity_label">Quantité :&#160;</string>
     <string name="selled_in_label">Vendu en :&#160;</string>
     <string name="ingredient_label">Ingrédients :&#160;</string>
     <string name="allergenic_substance_label">Substances allergènes :&#160;</string>
     <string name="additives_label">Additifs :&#160;</string>
+
+    <!-- Nutrition Activity -->
+    <string name="nutrition_title">Repères nutritionnels pour 100g</string>
+    <string name="low_quantity_text">en faible quantité</string>
+    <string name="medium_quantity_text">en quantité modérée</string>
+    <string name="high_quantity_text">en grande quantité</string>
+
+    <string name="fat_quantity_info">&#160;de Matières grasses / Lipides</string>
+    <string name="acide_quantity_info">&#160;d\'acides gras saturés</string>
+    <string name="sugar_quantity_info">&#160;de sucres</string>
+    <string name="salt_quantity_info">&#160;sel</string>
 </resources>

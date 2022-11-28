@@ -1,9 +1,24 @@
 <resources>
     <string name="app_name">OpenFoodFacts</string>
+
+    <!-- Detail Activity -->
     <string name="barcode_label">Bar code :&#160;</string>
     <string name="quantity_label">Quantity :&#160;</string>
     <string name="selled_in_label">Selled in :&#160;</string>
     <string name="ingredient_label">Ingredient :&#160;</string>
     <string name="allergenic_substance_label">Allergenic substance :&#160;</string>
     <string name="additives_label">Additives :&#160;</string>
+
+    <!-- Nutrition Activity -->
+    <string name="nutrition_title">Nutritional benchmarks per 100g</string>
+    <string name="low_quantity_text">in small quantities</string>
+    <string name="medium_quantity_text">in moderate quantities</string>
+    <string name="high_quantity_text">in high quantité</string>
+
+    <string name="fat_quantity_info">&#160;fats / Lipids</string>
+    <string name="acide_quantity_info">&#160;saturated fatty acids</string>
+    <string name="sugar_quantity_info">&#160;sugar</string>
+    <string name="salt_quantity_info">&#160;salt</string>
+
+
 </resources>

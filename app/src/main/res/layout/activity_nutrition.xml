@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Repères nutritionnels pour 100g"
+        android:text="@string/nutrition_title"
         />
 
     <View
@@ -39,7 +39,7 @@
         app:layout_constraintStart_toEndOf="@id/nutrient_level_fat"
         app:layout_constraintTop_toBottomOf="@id/title_text"
         app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingLeft="10dp"
         android:textColor="@color/black"
         android:text="0,8g de Matières grasses  / Lipides"
         />
@@ -50,9 +50,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@id/nutrient_level_fat"
         app:layout_constraintTop_toBottomOf="@id/fat_quantity_info"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         android:textColor="@color/black"
+        android:paddingLeft="10dp"
         android:text="en faible quantité"
         />
 
@@ -75,8 +75,8 @@
         app:layout_constraintStart_toEndOf="@id/nutrient_level_acide"
         app:layout_constraintTop_toBottomOf="@id/fat_quantity_desc"
         app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintEnd_toEndOf="parent"
         android:textColor="@color/black"
+        android:paddingLeft="10dp"
         android:text="0,8g de Matières grasses  / Lipides"
         />
 
@@ -86,9 +86,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@id/nutrient_level_acide"
         app:layout_constraintTop_toBottomOf="@id/acide_quantity_info"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         android:textColor="@color/black"
+        android:paddingLeft="10dp"
         android:text="en faible quantité"
         />
 
@@ -111,7 +111,7 @@
         app:layout_constraintStart_toEndOf="@id/nutrient_level_sugar"
         app:layout_constraintTop_toBottomOf="@id/acide_quantity_desc"
         app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingLeft="10dp"
         android:textColor="@color/black"
         android:text="0,8g de Matières grasses  / Lipides"
         />
@@ -122,9 +122,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@id/nutrient_level_sugar"
         app:layout_constraintTop_toBottomOf="@id/sugar_quantity_info"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         android:textColor="@color/black"
+        android:paddingLeft="10dp"
         android:text="en faible quantité"
         />
 
@@ -147,8 +147,8 @@
         app:layout_constraintStart_toEndOf="@id/nutrient_level_salt"
         app:layout_constraintTop_toBottomOf="@id/sugar_quantity_desc"
         app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintEnd_toEndOf="parent"
         android:textColor="@color/black"
+        android:paddingLeft="10dp"
         android:text="0,8g de Matières grasses  / Lipides"
         />
 
@@ -158,9 +158,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@id/nutrient_level_salt"
         app:layout_constraintTop_toBottomOf="@id/salt_quantity_info"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         android:textColor="@color/black"
+        android:paddingLeft="10dp"
         android:text="en faible quantité"
         />
 

@@ -6,26 +6,14 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
 import fr.esgi.openfoodfacts.model.Product
-import fr.esgi.openfoodfacts.model.enum.NutriScore
 
 class ActivityDetail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        // Create fake product
-        val product = Product(
-            "Petits pois et carottes",
-            "Cassegrain",
-            3083680085304,
-            NutriScore.B,
-            "https://static.openfoodfacts.org/images/products/308/368/008/5304/front_fr.7.400.jpg",
-            "400 g (280 g net égoutté)",
-            listOf<String>("France", "Japon", "Suisse"),
-            "Petits pois 66%, eau, garniture 2,8% (salade, oignon grelot), sucre, sel, arôme naturel",
-            "Aucune",
-            "Aucune"
-        )
+        val product = intent.getSerializableExtra("product") as Product
+
 
         // Retrieve the views
         val imageView = findViewById<ImageView>(R.id.main_image)
