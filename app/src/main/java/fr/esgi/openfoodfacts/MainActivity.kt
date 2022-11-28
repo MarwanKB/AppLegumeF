@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar?.setBackgroundDrawable(ContextCompat.getDrawable(this, R.drawable.action_bar))
-        val changePage = Intent(this, ActivityDetail::class.java)
+        val changePage = Intent(this, NutritionActivity::class.java)
         startActivity(changePage)
     }
 }

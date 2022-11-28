@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Repères nutritionnels pour 100g"
+        />
+
+    <View
+        android:id="@+id/nutrient_level_fat"
+        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        app:layout_constraintStart_toStartOf="@id/title_text"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/nutrient_level"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        />
+
+    <TextView
+        android:id="@+id/fat_quantity_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/nutrient_level_fat"
+        app:layout_constraintTop_toBottomOf="@id/title_text"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        android:text="0,8g de Matières grasses  / Lipides"
+        />
+
+    <TextView
+        android:id="@+id/fat_quantity_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/nutrient_level_fat"
+        app:layout_constraintTop_toBottomOf="@id/fat_quantity_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        android:textColor="@color/black"
+        android:text="en faible quantité"
+        />
+
+    <View
+        android:id="@+id/nutrient_level_acide"
+        app:layout_constraintTop_toBottomOf="@+id/nutrient_level_fat"
+        app:layout_constraintStart_toStartOf="@id/title_text"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/nutrient_level"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        />
+
+    <TextView
+        android:id="@+id/acide_quantity_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/nutrient_level_acide"
+        app:layout_constraintTop_toBottomOf="@id/fat_quantity_desc"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        android:text="0,8g de Matières grasses  / Lipides"
+        />
+
+    <TextView
+        android:id="@+id/acide_quantity_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/nutrient_level_acide"
+        app:layout_constraintTop_toBottomOf="@id/acide_quantity_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        android:textColor="@color/black"
+        android:text="en faible quantité"
+        />
+
+    <View
+        android:id="@+id/nutrient_level_sugar"
+        app:layout_constraintTop_toBottomOf="@+id/nutrient_level_acide"
+        app:layout_constraintStart_toStartOf="@id/title_text"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/nutrient_level"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        />
+
+    <TextView
+        android:id="@+id/sugar_quantity_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/nutrient_level_sugar"
+        app:layout_constraintTop_toBottomOf="@id/acide_quantity_desc"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        android:text="0,8g de Matières grasses  / Lipides"
+        />
+
+    <TextView
+        android:id="@+id/sugar_quantity_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/nutrient_level_sugar"
+        app:layout_constraintTop_toBottomOf="@id/sugar_quantity_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        android:textColor="@color/black"
+        android:text="en faible quantité"
+        />
+
+    <View
+        android:id="@+id/nutrient_level_salt"
+        app:layout_constraintTop_toBottomOf="@+id/nutrient_level_sugar"
+        app:layout_constraintStart_toStartOf="@id/title_text"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/nutrient_level"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        />
+
+    <TextView
+        android:id="@+id/salt_quantity_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/nutrient_level_salt"
+        app:layout_constraintTop_toBottomOf="@id/sugar_quantity_desc"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        android:text="0,8g de Matières grasses  / Lipides"
+        />
+
+    <TextView
+        android:id="@+id/salt_quantity_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/nutrient_level_salt"
+        app:layout_constraintTop_toBottomOf="@id/salt_quantity_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        android:textColor="@color/black"
+        android:text="en faible quantité"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
